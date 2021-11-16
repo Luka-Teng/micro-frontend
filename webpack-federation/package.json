@@ -6,7 +6,10 @@
   "scripts": {
     "start-app1": "cd app1 && npm run start",
     "start-app2": "cd app2 && npm run start",
-    "start": "npm run start-app1 & npm run start-app2"
+    "start": "npm run start-app1 & npm run start-app2",
+    "build-app1": "cd app1 && npm run build",
+    "build-app2": "cd app2 && npm run build",
+    "build": "npm run build-app1 & npm run build-app2"
   },
   "author": "",
   "license": "ISC",

@@ -13,5 +13,9 @@ const App = () => {
   )
 }
 
+console.log(window.aaa = __webpack_require__.c)
+
 export default App;
+
+export const a = 1
 

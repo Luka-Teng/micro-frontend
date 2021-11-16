@@ -5,6 +5,7 @@ const path = require("path")
 module.exports = {
   entry: "./src/index",
   mode: "development",
+  devtool: "cheap-module-source-map",
   devServer: {
     port: 3001
   },
